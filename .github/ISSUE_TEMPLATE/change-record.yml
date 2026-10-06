@@ -1,21 +1,32 @@
 name: Change record
 description: Document a change
+title: "[Tree] Node - "
 body:
   - type: input
     attributes:
       label: Tree name
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Issue
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Root cause
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Fix
+    validations:
+      required: true
   - type: input
     attributes:
       label: Node
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Before
