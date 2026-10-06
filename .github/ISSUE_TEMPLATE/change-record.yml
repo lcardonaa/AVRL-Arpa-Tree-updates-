@@ -1,0 +1,26 @@
+name: Change record
+description: Document a change
+body:
+  - type: input
+    attributes:
+      label: Tree name
+  - type: textarea
+    attributes:
+      label: Issue
+  - type: textarea
+    attributes:
+      label: Root cause
+  - type: textarea
+    attributes:
+      label: Fix
+  - type: input
+    attributes:
+      label: Node
+  - type: textarea
+    attributes:
+      label: Before
+      render: javascript
+  - type: textarea
+    attributes:
+      label: After
+      render: javascript
